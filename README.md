@@ -10,7 +10,7 @@ The [client](src/org/hokiegeek2/integration/kubernetes/client.py) module contain
 
 ## ConfigMap
 
-The [config_map](src/org/hokiegeek3/integration/kubernetes/config_map.py) module contains the ConfigMapClient that encapsulates logic to retrieve and update ConfigMaps.
+The [config_map](src/org/hokiegeek2/integration/kubernetes/config_map.py) module contains the ConfigMapClient that encapsulates logic to retrieve and update ConfigMaps.
 
 ## Prometheus
 
