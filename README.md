@@ -14,7 +14,7 @@ The [config_map](src/org/hokiegeek2/integration/kubernetes/config_map.py) module
 
 ## Prometheus
 
-The [prometheus](src/org/hokiegeek2/integration/kubernetes/prometheus.py) module contains the PrometheusKubernetesClient that encapsulates logic to add and remove scrape configs within a Prometheus server CoinfigMap.
+The [prometheus](src/org/hokiegeek2/integration/kubernetes/prometheus.py) module contains the PrometheusKubernetesClient that encapsulates logic to add and remove scrape configs within a Prometheus server ConfigMap.
 
 # Installation
 
@@ -22,4 +22,14 @@ Navigate to the [src](src/) directory and execute the following command:
 
 ```
 pip install -e .
+```
+
+# Deployment
+
+## Docker
+
+Navigate to the project home directory and execute the following command:
+
+```
+docker build -f Dockerfile -t hokiegeek2/kubernetes-integration:0.0.1 .
 ```
